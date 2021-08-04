@@ -60,6 +60,7 @@ body{
     color: hsla(0, 0%, 100%, 0.6);
     text-transform: uppercase;
     text-align: center;
+    font-weight:normal;
 }
 
 .hero-background{
