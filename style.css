@@ -45,7 +45,7 @@ body{
 }
 
 .title-section p{
-    margin-bottom:2rem;
+    margin-bottom:3rem;
     color:hsla(0, 0%, 100%, 0.75);
    
 }
@@ -53,12 +53,13 @@ body{
 .stat-container{
     display: flex;
     justify-content: space-between;
-    font-size: 1rem;
-    
+    font-size: 1.2rem;
    
-    
 }
 
+.stat-container .stat-number{
+    margin:0;
+}
 .stat-container .stat-details{
 
     margin:0 auto;
