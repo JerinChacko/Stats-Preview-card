@@ -18,7 +18,7 @@ body{
     width:95%;
     max-width:1110px;
     height:446px;
-     margin:10.5rem auto;
+    margin:11rem auto;
     background-color:  hsl(244, 38%, 16%);
     overflow: hidden; /***to make image corner  rounded***/
     border-radius: 8px;
@@ -28,7 +28,7 @@ body{
 
 .title-section{
     width:403px;
-    margin:4rem 0rem 4.7rem 4.6rem;
+    margin:3rem 0rem 4.7rem 4.6rem;
 }
 
 .title-section h1{
