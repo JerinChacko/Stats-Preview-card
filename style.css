@@ -20,6 +20,7 @@ h1,h2,h3,h4,h5,h5,p{
 .card-container{
     width:95%;
     max-width:1110px;
+    height:446px;
     margin:11rem auto 3rem auto;
     background-color:  hsl(244, 38%, 16%);
     overflow: hidden; /***to make image corner  rounded***/
