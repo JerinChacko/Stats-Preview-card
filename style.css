@@ -11,7 +11,6 @@ body{
     font-size: 15px;
     font-family: 'Inter', sans-serif;
     line-height:1.8;
-    font-weight:700;
  
 }
 
@@ -38,6 +37,7 @@ body{
     font-size: 2.3rem;
     margin-bottom: 1.5rem;
     line-height:1.2;
+     font-weight:700;
 }
 
  .title-section h1 span{
@@ -47,7 +47,7 @@ body{
 .title-section p{
     margin-bottom:2.7rem;
     color:hsla(0, 0%, 100%, 0.75);
-    font-weight:100;
+    font-weight:normal;
    
 }
 
