@@ -62,7 +62,6 @@ body{
 }
 .stat-container .stat-details{
 
-    margin-left:1rem;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 0.8rem;
     color: hsla(0, 0%, 100%, 0.6);
