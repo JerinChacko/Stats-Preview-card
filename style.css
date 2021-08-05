@@ -45,7 +45,7 @@ body{
 }
 
 .title-section p{
-    margin-bottom:3.5rem;
+    margin-bottom:3rem;
     color:hsla(0, 0%, 100%, 0.75);
    
 }
@@ -55,6 +55,9 @@ body{
     justify-content: space-between;
     font-size: 1rem;
    
+}
+.stat-container .stat-section{
+    margin-right:2rem;
 }
 .stat-container .stat-number{
     margin-bottom:0;
