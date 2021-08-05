@@ -45,7 +45,7 @@ body{
 }
 
 .title-section p{
-    margin-bottom:3rem;
+    margin-bottom:4rem;
     color:hsla(0, 0%, 100%, 0.75);
    
 }
@@ -62,7 +62,7 @@ body{
 }
 .stat-container .stat-details{
 
-    margin:0 auto;
+    margin-left:1rem;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 0.8rem;
     color: hsla(0, 0%, 100%, 0.6);
