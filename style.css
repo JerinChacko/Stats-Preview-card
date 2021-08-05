@@ -45,7 +45,7 @@ body{
 }
 
 .title-section p{
-    margin-bottom:3rem;
+    margin-bottom:2.7rem;
     color:hsla(0, 0%, 100%, 0.75);
    
 }
@@ -57,7 +57,7 @@ body{
    
 }
 .stat-container .stat-section{
-    margin-right:2rem;
+    margin-right:1.6rem;
 }
 .stat-container .stat-number{
     margin-bottom:0;
