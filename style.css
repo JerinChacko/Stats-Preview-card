@@ -10,6 +10,7 @@ body{
     color:hsl(0, 0%, 100%);
     font-size: 15px;
     font-family: 'Inter', sans-serif;
+    line-height:1.6;
  
 }
 
@@ -46,7 +47,7 @@ body{
 .title-section p{
     margin-bottom:3rem;
     color:hsla(0, 0%, 100%, 0.75);
-    line-height:1.6;
+   
 }
 
 .stat-container{
