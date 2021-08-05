@@ -57,6 +57,10 @@ body{
    
 }
 
+.stat-container .stat-section{
+    margin-left:2rem;
+}
+
 .stat-container .stat-number{
     margin:0;
 }
