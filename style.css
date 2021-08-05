@@ -58,14 +58,12 @@ body{
 }
 
 .stat-container .stat-section{
-    margin-left:2rem;
+    margin-right:2rem;
 }
 
-.stat-container .stat-number{
-    margin:0;
-}
+
 .stat-container .stat-details{
-
+    margin-top:0;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 0.8rem;
     color: hsla(0, 0%, 100%, 0.6);
