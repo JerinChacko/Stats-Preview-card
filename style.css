@@ -18,7 +18,7 @@ body{
     width:95%;
     max-width:1110px;
     height:446px;
-     margin:11rem auto 11rem auto;
+     margin:10rem auto;
     background-color:  hsl(244, 38%, 16%);
     overflow: hidden; /***to make image corner  rounded***/
     border-radius: 8px;
