@@ -53,9 +53,10 @@ body{
 
 .stat-container{
     margin:0 auto;
+    width:374px;
     display: flex;
     justify-content: space-between;
-    font-size: 0.9rem;
+    font-size: 1rem;
    
 }
 .stat-container .stat-section{
