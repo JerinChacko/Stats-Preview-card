@@ -103,7 +103,8 @@ a{
 @media (max-width:1064px){
 
     .card-container{
-        margin:4rem auto;
+        margin:2rem auto;
+        padding:2rem;
         height:780px;
         flex-direction: column-reverse;
     }
@@ -122,26 +123,13 @@ a{
 }
 /*************** Mobile Screen size***************/
 
-@media (max-width:500px){
+@media (max-width:400px){
 
     html{
         font-size: 11px;
     }
-    .card-container{
-        width: 85%;
-        height:auto;
-        max-width:327px;
-        text-align: center;
-        margin: 6rem  auto 2rem auto; 
-    }
-
-    .hero-background{ 
-        width:100%;
-        height: 270px;
-        background: hsl(277, 64%, 61%) url(images/image-header-mobile.jpg)  no-repeat  center;
-        background-blend-mode: multiply;
-        background-size: cover;
-    }
+    
+    
     
     .title-section{
         min-width: 90%;
