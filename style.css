@@ -45,15 +45,17 @@ body{
 }
 
 .title-section p{
+    width:374px;
     margin-bottom:2.7rem;
     color:hsla(0, 0%, 100%, 0.75);
-   ffont-weight:400;
+    
 }
 
 .stat-container{
+    margin:0 auto;
     display: flex;
     justify-content: space-between;
-    font-size: 1rem;
+    font-size: 0.9rem;
    
 }
 .stat-container .stat-section{
