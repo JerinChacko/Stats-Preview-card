@@ -37,7 +37,7 @@ body{
     font-size: 2.2rem;
     margin-bottom: 1.5rem;
     line-height:1.2;
-     font-weight:700;
+    font-weight:700;
 }
 
  .title-section h1 span{
@@ -82,7 +82,7 @@ body{
     height: auto;
     background: hsl(277, 64%, 61%) url(images/image-header-desktop.jpg) no-repeat center;
     background-blend-mode: multiply;
-    filter:brightness(110%);
+    filter:contrast(80%);
     background-size: cover;
   
 }
