@@ -28,7 +28,8 @@ body{
 }
 
 .title-section{
-    width:403px;
+    width:100%;
+    max-width:403px;
     margin:2.4rem 0rem 4.7rem 4.5rem;
 }
 
@@ -114,9 +115,9 @@ a{
 
     
     .title-section{
-        width:100%;
+       
         margin: 1rem auto;
-        text-align:center;
+       
     }
 }
 /*************** Mobile Screen size***************/
