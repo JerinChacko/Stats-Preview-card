@@ -10,7 +10,7 @@ body{
     color:hsl(0, 0%, 100%);
     font-size: 15px;
     font-family: 'Inter', sans-serif;
-    line-height:1.7;
+    line-height:1.6;
  
 }
 
@@ -34,7 +34,7 @@ body{
 
  .title-section h1{
     max-width: 403px;
-    font-size: 2.3rem;
+    font-size: 2.2rem;
     margin-bottom: 1.5rem;
     line-height:1.2;
      font-weight:700;
