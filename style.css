@@ -102,6 +102,7 @@ a{
 @media (max-width:1064px){
 
     .card-container{
+        margin:6rem auto;
         height:780px;
         flex-direction: column-reverse;
     }
