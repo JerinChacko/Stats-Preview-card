@@ -82,7 +82,7 @@ body{
     height: auto;
     background: hsl(277, 64%, 61%) url(images/image-header-desktop.jpg) no-repeat center;
     background-blend-mode: multiply;
-    filter:contrast(80%);
+    filter:  contrast(70%) saturate(130%);
     background-size: cover;
   
 }
