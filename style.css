@@ -29,7 +29,7 @@ body{
 
 .title-section{
     width:403px;
-    margin:2.3rem 0rem 4.7rem 4.5rem;
+    margin:2.4rem 0rem 4.7rem 4.5rem;
 }
 
  .title-section h1{
@@ -82,8 +82,9 @@ body{
     height: auto;
     background: hsl(277, 64%, 61%) url(images/image-header-desktop.jpg) no-repeat center;
     background-blend-mode: multiply;
+    filter:brightness(110%);
     background-size: cover;
-    opacity:0.6;
+  
 }
 
 .attribution{
