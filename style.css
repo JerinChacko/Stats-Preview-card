@@ -52,7 +52,6 @@ body{
 }
 
 .stat-container{
-    margin:0 auto;
     width:374px;
     display: flex;
     justify-content: space-between;
@@ -70,6 +69,7 @@ body{
 .stat-container .stat-details{
     margin-top:0;
     font-family: 'Lexend Deca', sans-serif;
+    font-weight:normal;
     font-size: 0.8rem;
     color: hsla(0, 0%, 100%, 0.6);
     text-transform: uppercase;
