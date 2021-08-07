@@ -103,50 +103,82 @@ a{
 @media (max-width:1064px){
 
     .card-container{
+        width:80%;
         margin:2rem auto;
-        padding:2rem;
+        padding-bottom:2rem;
         height:780px;
         flex-direction: column-reverse;
     }
 
-    .hero-background{
-        width: 100%;
-        height: 400px;
+    .hero-background{   
+    
+        width:100%;
+        height:400px;
+        display: block;
     }
 
     
     .title-section{
-       
-        margin: 1rem auto;
-       
+       width:90%;
+       margin: 1rem auto;
+      
     }
-}
+
 /*************** Mobile Screen size***************/
 
-@media (max-width:400px){
+@media (max-width:515px){
 
-    html{
-        font-size: 11px;
-    }
-    
-    
-    
-    .title-section{
-        min-width: 90%;
+    .card-container{
+
+        width:327px;
         height: auto;
-        margin: 1rem auto;
+        text-align: center;
+        font-size: 12px;
+        margin: 2rem auto;
     }
     
-    .stat-container{
-        
-        flex-direction: column;
-        justify-content: space-evenly; 
-        font-size: 1.7rem;   
+    .hero-background{
+        width: 327px;
+        height: 240px;
+        background: hsl(277, 64%, 61%) url(images/image-header-mobile.jpg) no-repeat center;
+        background-blend-mode: multiply;
+        filter:  contrast(80%) saturate(130%);
+        background-size: cover;
+      
     }
 
-    .stat-container .stat-section{
-        width: 80%;
-        margin: 1rem auto;
-        
+    .title-section{
+        width: 90%;
+        margin: 0 auto;
     }
-}
+
+    .title-section h1{
+        width:90%;
+        margin: 1.5rem auto;
+        font-size: 1.7rem;
+       
+     }
+
+
+     .title-section p{
+        width:95%;
+        margin-top: 1rem auto;
+        margin-bottom: 0;
+        font-size: 1rem;
+       
+     }
+    
+     .stat-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 0.8rem;
+       
+     }
+
+     .stat-container .stat-section{
+        margin-left:1.6rem;
+    }
+     
+    }
