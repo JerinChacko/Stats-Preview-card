@@ -1,184 +1,162 @@
-
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
-    margin:0;
-    padding:0;
-    background:hsl(233, 47%, 7%);
-    color:hsl(0, 0%, 100%);
+body {
+    margin: 0;
+    padding: 0;
+    background: hsl(233, 47%, 7%);
+    color: hsl(0, 0%, 100%);
     font-size: 15px;
     font-family: 'Inter', sans-serif;
-    line-height:1.8;
- 
+    line-height: 1.8;
 }
 
-
-.card-container{
-    width:95%;
-    max-width:1110px;
-    height:446px;
-    margin:11.2rem  auto 9.2rem auto;
-    background-color:  hsl(244, 38%, 16%);
-    overflow: hidden; /***to make image corner  rounded***/
+.card-container {
+    width: 95%;
+    max-width: 1110px;
+    height: 446px;
+    margin: 11.2rem auto 9.2rem auto;
+    background-color: hsl(244, 38%, 16%);
+    overflow: hidden;
+    /***to make image corner  rounded***/
     border-radius: 8px;
-    display:flex;
+    display: flex;
     justify-content: space-between;
 }
 
-.title-section{
-    width:100%;
-    max-width:403px;
-    margin:2.4rem 0rem 4.7rem 4.5rem;
+.title-section {
+    width: 100%;
+    max-width: 403px;
+    margin: 2.4rem 0rem 4.7rem 4.5rem;
 }
 
- .title-section h1{
+.title-section h1 {
     max-width: 403px;
     font-size: 2.2rem;
     margin-bottom: 1.5rem;
-    line-height:1.2;
-    font-weight:700;
+    line-height: 1.2;
+    font-weight: 700;
 }
 
- .title-section h1 span{
+.title-section h1 span {
     color: hsl(277, 64%, 61%);
 }
 
-.title-section p{
-    width:374px;
-    margin-bottom:2.7rem;
-    color:hsla(0, 0%, 100%, 0.75);
-    
+.title-section p {
+    width: 374px;
+    margin-bottom: 2.7rem;
+    color: hsla(0, 0%, 100%, 0.75);
 }
 
-.stat-container{
-    width:374px;
+.stat-container {
+    width: 374px;
     display: flex;
     justify-content: space-between;
     font-size: 1rem;
-   
-}
-.stat-container .stat-section{
-    margin-right:1.6rem;
-}
-.stat-container .stat-number{
-    margin-bottom:0;
-
 }
 
-.stat-container .stat-details{
-    margin-top:0;
+.stat-container .stat-section {
+    margin-right: 1.6rem;
+}
+
+.stat-container .stat-number {
+    margin-bottom: 0;
+}
+
+.stat-container .stat-details {
+    margin-top: 0;
     font-family: 'Lexend Deca', sans-serif;
-    font-weight:normal;
+    font-weight: normal;
     font-size: 0.8rem;
     color: hsla(0, 0%, 100%, 0.6);
     text-transform: uppercase;
     text-align: center;
-    
 }
 
-.hero-background{
+.hero-background {
     width: 540px;
     height: auto;
     background: hsl(277, 64%, 61%) url(images/image-header-desktop.jpg) no-repeat center;
     background-blend-mode: multiply;
-    filter:  contrast(80%) saturate(130%);
+    filter: contrast(80%) saturate(130%);
     background-size: cover;
-  
 }
 
-.attribution{
+.attribution {
     text-align: center;
-    margin: 2rem auto 3rem auto;  
+    margin: 2rem auto 3rem auto;
 }
 
-a{
+a {
     text-decoration: none;
     color: rgb(199, 101, 22);
 }
 
+
 /******Tab Screen Size***************************/
 
-@media (max-width:1064px){
-
-    .card-container{
-        width:80%;
-        margin:2rem auto;
-        padding-bottom:2rem;
-        height:780px;
+@media (max-width:1064px) {
+    .card-container {
+        width: 80%;
+        margin: 2rem auto;
+        padding-bottom: 2rem;
+        height: 780px;
         flex-direction: column-reverse;
     }
-
-    .hero-background{   
-    
-        width:100%;
-        height:400px;
+    .hero-background {
+        width: 100%;
+        height: 400px;
         display: block;
     }
-
-    
-    .title-section{
-       width:90%;
-       margin: 1rem auto;
-      
+    .title-section {
+        width: 90%;
+        margin: 1rem auto;
     }
+}
+
 
 /*************** Mobile Screen size***************/
 
-@media (max-width:515px){
-
-    .card-container{
-
-        width:327px;
+@media (max-width:515px) {
+    .card-container {
+        width: 327px;
         height: auto;
         text-align: center;
         font-size: 12px;
         margin: 2rem auto;
     }
-    
-    .hero-background{
+    .hero-background {
         width: 327px;
         height: 240px;
         background: hsl(277, 64%, 61%) url(images/image-header-mobile.jpg) no-repeat center;
         background-blend-mode: multiply;
-        filter:  contrast(80%) saturate(130%);
+        filter: contrast(80%) saturate(130%);
         background-size: cover;
-      
     }
-
-    .title-section{
+    .title-section {
         width: 90%;
         margin: 0 auto;
     }
-
-    .title-section h1{
-        width:90%;
+    .title-section h1 {
+        width: 90%;
         margin: 1.5rem auto;
         font-size: 1.7rem;
-       
-     }
-
-
-     .title-section p{
-        width:95%;
+    }
+    .title-section p {
+        width: 95%;
         margin-top: 1rem auto;
         margin-bottom: 0;
         font-size: 1rem;
-       
-     }
-    
-     .stat-container{
+    }
+    .stat-container {
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         font-size: 0.8rem;
-       
-     }
-
-     .stat-container .stat-section{
-        margin-left:1.6rem;
     }
-     
+    .stat-container .stat-section {
+        margin-left: 1.6rem;
     }
+}
